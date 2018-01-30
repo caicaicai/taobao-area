@@ -574,8 +574,8 @@ EOF;
                         $add                     = [];
                         $add['id']               = $arr_arr[0];//ID
                         $add['name']             = $arr_arr[1];//名称
-                        $add['name_traditional'] = $arr_arr[2];//繁体名称
-                        $add['parent_id']        = $arr_arr[3];
+                        $add['name_traditional'] = '';//繁体名称
+                        $add['parent_id']        = $arr_arr[2];
                         $add['type']             = 0;
                         $add['type_name']        = '';//类别名称
                         $add['other_name']       = '';//类别名称
@@ -588,6 +588,7 @@ EOF;
                 
             }
         }
+
 
     }
 
